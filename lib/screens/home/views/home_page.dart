@@ -12,8 +12,8 @@ class HomePage extends StatelessWidget {
         builder: (context, state) {
           String title = state.maybeMap(
             success: (_state) =>
-                _state.tabIndex == 0 ? "Crypto Currencies" : "Favourites",
-            orElse: () => "Crypto Currencies",
+                _state.tabIndex == 0 ? "Currencies" : "Favorites",
+            orElse: () => "Currencies",
           );
           return Text(title);
         },
