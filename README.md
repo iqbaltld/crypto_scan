@@ -43,12 +43,14 @@ Ensure you have Flutter installed on your development machine. The app is built 
    ```
 
 ### Run the App
+
 4. After installation, run the app using the following command:
    ```bash
    flutter run
    ```
 
 ### Dependencies
+
 - flutter_bloc: ^8.1.5
 - http: ^1.2.1
 - json_annotation: ^4.9.0
@@ -58,6 +60,37 @@ Ensure you have Flutter installed on your development machine. The app is built 
 - intl: ^0.19.0
 
 ### Dev Dependencies
+
 - build_runner: ^2.4.9
 - freezed: ^2.5.2
 - json_serializable: ^6.8.0
+
+### About Key Dependencies
+
+### Flutter Bloc
+
+flutter_bloc is a package that implements the BLoC (Business Logic Component) pattern, providing a predictable state management solution that helps to separate presentation from business logic in Flutter applications. This package facilitates easy state management with features like streaming of states, event handling, and integrating with the Flutter widget tree, making it a cornerstone for reactive and maintainable architectures.
+
+### Freezed
+
+Freezed is a code generation package that creates immutable and sealed classes for Flutter/Dart, enhancing type safety and reducing boilerplate in state management.
+
+### JSON Serializable
+
+json_serializable automates the process of converting JSON data to and from Dart objects, simplifying interactions with web services by generating necessary serialization boilerplate.
+
+### JSON Annotation
+
+json_annotation provides annotations for json_serializable to specify rules for serializing Dart objects, such as field renaming and ignoring fields.
+
+### Freezed Annotation
+
+freezed_annotation supplies annotations for the freezed package, directing how to generate immutable classes and ensuring properties and methods conform to specified behaviors.
+
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/1.png" alt="Currency List" title="Currency List" width="300"/>
+  <img src="screenshots/2.png" alt="Favorites" title="Favorites" width="300"/>
+  <img src="screenshots/3.png" alt="Trends" title="Trends" width="300"/>
+</p>
