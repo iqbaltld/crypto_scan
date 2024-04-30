@@ -27,7 +27,7 @@ Ensure you have Flutter installed on your development machine. The app is built 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourgithub/flutter-crypto-trends.git
+   git clone https://github.com/iqbaltld/crypto_scan.git
    ```
 2. Navigate to the project directory:
    ```bash
