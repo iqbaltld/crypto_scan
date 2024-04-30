@@ -1,6 +1,6 @@
 # Crypto Scan
 
-This application is a small-scale Flutter project that displays a list of cryptocurrency pairs, allows users to search for specific coins, and mark them as favorites. It utilizes data from the Binance API to retrieve and display real-time price data and daily changes for each cryptocurrency.
+This application is a Flutter project that displays a list of cryptocurrency pairs, allows users to search for specific coins, and mark them as favorites. It utilizes data from the Binance API to retrieve and display real-time price data and daily changes for each cryptocurrency.
 
 ## Features
 
@@ -48,22 +48,6 @@ Ensure you have Flutter installed on your development machine. The app is built 
    ```bash
    flutter run
    ```
-
-### Dependencies
-
-- flutter_bloc: ^8.1.5
-- http: ^1.2.1
-- json_annotation: ^4.9.0
-- fl_chart: ^0.67.0
-- freezed_annotation: ^2.4.1
-- web_socket_channel: ^2.4.5
-- intl: ^0.19.0
-
-### Dev Dependencies
-
-- build_runner: ^2.4.9
-- freezed: ^2.5.2
-- json_serializable: ^6.8.0
 
 ### About Key Dependencies
 
