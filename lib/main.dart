@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return BlocProvider(
       create: (context) => HomeBloc(),
       child: MaterialApp(
-        title: 'Crypto Currencies',
+        title: 'Crypto Scan',
         theme: ThemeData(
             primarySwatch: Colors.blue,
             scaffoldBackgroundColor: AppConstants.backgroundColor,
